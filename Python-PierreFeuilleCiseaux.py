@@ -22,3 +22,6 @@ if ((computer_choice == 0) and (user_choice == 1)) or (computer_choice == 2 and 
 
 if ((computer_choice == 0) and (user_choice == 2)) or ((computer_choice == 1) and (user_choice == 0)) or ((computer_choice == 2) and (user_choice == 1)):
     print ("Vous avez perdu!")
+    
+if ((computer_choice == 0) and (user_choice == 0)) or ((computer_choice == 1) and (user_choice == 1)) or ((computer_choice == 2) and (user_choice == 2)):
+    print ("Egaliter, retentez votre chance!")
